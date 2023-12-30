@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div className="main">
       <div ref={canvasRef} />
-      <div>sinan tokmak ♥</div>
+      // <div>sinan tokmak ♥</div>
     </div >
   )
 }
