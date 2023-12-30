@@ -3,7 +3,7 @@ import './App.css';
 import sketch from './sketch';
 import p5 from 'p5';
 
-const TEXT = 'Happy Birthday Tana <3';
+const TEXT = 'Happy Birthday Tana ♥';
 
 const App = () => {
   const canvasRef = React.useRef(null)
@@ -19,6 +19,7 @@ const App = () => {
   return (
     <div className="main">
       <div ref={canvasRef} />
+      <div>sinan tokmak ♥</div>
     </div >
   )
 }

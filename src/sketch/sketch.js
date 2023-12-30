@@ -1,7 +1,7 @@
 import Dot from './Dot';
 import fontFile from './AvenirNextLTPro-Demi.otf';
 
-const defaultFrameRate = 60; // low framerate to avoid too much strain on mobile phones
+const defaultFrameRate = 30; // low framerate to avoid too much strain on mobile phones and 60 will improves phy peed.
 
 
 export default (parent, text) => (sketch) => {
